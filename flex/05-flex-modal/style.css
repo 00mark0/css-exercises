@@ -20,6 +20,37 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inline {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: -10px;
+}
+
+.inline .header {
+  display: flex;
+  flex-grow: 2;
+  margin-left: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.icon, .close-button {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.align {
+  max-width: 420px;
+  margin-left: 50px;
+}
+
+.align .text {
+  margin-bottom: 20px;
 }
 
 .icon {
